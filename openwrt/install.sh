@@ -14,7 +14,7 @@ OK="${Green}[OK]${Font}"
 Error="${Red}[错误]${Font}"
 
 #url
-Wrturl="https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/openwrt/clash"
+Wrturl="https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/main/openwrt/clash"
 
 echo='echo -e' && [ -n "$(echo -e|grep e)" ] && echo=echo
 

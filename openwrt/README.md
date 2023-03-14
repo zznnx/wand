@@ -6,11 +6,11 @@ opkg install wget tar dnsmasq-full iptables ip-full kmod-tun iptables-mod-extra 
 ##### ~Use curl:<br>
 
 ```Shell
-sh -c "$(curl -kfsSl https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/openwrt/install.sh)"
+sh -c "$(curl -kfsSl https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/main/openwrt/install.sh)"
 ```
 
 ##### ~Use wget：<br>
 
 ```Shell
-wget --no-check-certificate -O /tmp/install.sh https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/openwrt/install.sh && sh /tmp/install.sh
+wget --no-check-certificate -O /tmp/install.sh https://ghproxy.com/https://raw.githubusercontent.com/zznnx/wand/main/openwrt/install.sh && sh /tmp/install.sh
 ```
